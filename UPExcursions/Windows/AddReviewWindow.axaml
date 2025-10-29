@@ -1,0 +1,38 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="UPExcursions.Views.AddReviewWindow"
+        Title="AddReviewWindow"
+        Width="400"
+        Height="320"
+        WindowStartupLocation="CenterOwner"
+        CanResize="False">
+
+    <StackPanel Margin="15" Spacing="12">
+        <TextBlock Text="Rating:" />
+        <ComboBox Name="RatingBox" SelectedIndex="0">
+            <ComboBoxItem>1</ComboBoxItem>
+            <ComboBoxItem>2</ComboBoxItem>
+            <ComboBoxItem>3</ComboBoxItem>
+            <ComboBoxItem>4</ComboBoxItem>
+            <ComboBoxItem>5</ComboBoxItem>
+        </ComboBox>
+
+        <TextBlock Text="Comment:" />
+        <TextBox Name="CommentBox"
+                 AcceptsReturn="True"
+                 Height="100"
+                 Text="{Binding Comment, Mode=TwoWay}" />
+
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    Spacing="10">
+            <Button Content="Save"
+                    Click="SaveButton_Click"
+                    Width="80" Background="#4B0082" Foreground="White" />
+
+            <Button Content="Cancel"
+                    Click="CancelButton_Click"
+                    Width="80" Background="white" BorderBrush="#4B0082" />
+        </StackPanel>
+    </StackPanel>
+</Window>

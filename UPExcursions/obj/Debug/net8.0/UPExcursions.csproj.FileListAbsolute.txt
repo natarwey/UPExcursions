@@ -147,3 +147,4 @@ C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\o
 C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\obj\Debug\net8.0\UPExcursions.pdb
 C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\obj\Debug\net8.0\UPExcursions.genruntimeconfig.cache
 C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\obj\Debug\net8.0\ref\UPExcursions.dll
+C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\obj\Debug\net8.0\UPExcursions.sourcelink.json

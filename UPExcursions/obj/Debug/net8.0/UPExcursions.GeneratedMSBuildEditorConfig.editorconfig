@@ -32,3 +32,9 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/admin/Desktop/Башарова Рената/UPExcursions/UPExcursions/Views/ReviewsView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/admin/Desktop/Башарова Рената/UPExcursions/UPExcursions/Windows/AddReviewWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/admin/Desktop/Башарова Рената/UPExcursions/UPExcursions/Windows/AuthWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

@@ -1,8 +1,44 @@
-<UserControl xmlns="https://github.com/avaloniaui"
+﻿<UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             xmlns:data="using:UPExcursions.Data"
              x:Class="UPExcursions.Views.ReviewsView">
-  Welcome to Avalonia!
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10">
+            <Button Content="Back" Click="BackButton_Click" Width="80" Height="30" BorderBrush="#546F94" Background="white"/>
+            <Button Content="Add Review" Click="AddReviewButton_Click" Width="100" Height="30" Margin="10,0,0,0" Background="#4B0082" Foreground="White"/>
+        </StackPanel>
+
+        <ScrollViewer Grid.Row="1">
+            <ListBox x:Name="ReviewsList">
+                <ListBox.ItemTemplate>
+                    <DataTemplate DataType="data:Review">
+                        <Border Background="#E6E6FA"
+                                Margin="5"
+                                Padding="12"
+                                MinWidth="400"
+                                CornerRadius="6">
+                            <StackPanel Spacing="6">
+                                <StackPanel Orientation="Horizontal" Spacing="10">
+                                    <TextBlock FontWeight="Bold" Text="{Binding User.LastName}" />
+                                    <TextBlock Text="★" Foreground="Gold" />
+                                    <TextBlock Text="{Binding Rating}" />
+                                </StackPanel>
+
+                                <TextBlock Text="{Binding Comment}" TextWrapping="Wrap" />
+
+                                <TextBlock FontStyle="Italic" Foreground="#666"
+                                           Text="{Binding CreatedAt, StringFormat='{}{0:dd.MM.yyyy HH:mm}'}" />
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </ScrollViewer>
+    </Grid>
 </UserControl>

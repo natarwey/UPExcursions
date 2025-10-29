@@ -28,7 +28,6 @@ public partial class ExcursionsView : UserControl
 
     private async Task LoadReferenceDataAsync()
     {
-        // Загружаем категории из БД (или откуда у вас данные)
         var db = App.dbContext;
         _categories = await db.Categories.ToListAsync();
         CategoryFilter.ItemsSource = _categories;
@@ -40,7 +39,9 @@ public partial class ExcursionsView : UserControl
         var db = App.dbContext;
         IQueryable<Excursion> query = db.Excursions
             .Include(e => e.Category)
-            .Include(e => e.ExcursionSessions);
+            .Include(e => e.ExcursionSessions)
+            .Include(e => e.Reviews)
+            .ThenInclude(r => r.User);
 
         if (CategoryFilter.SelectedItem is Category selectedCategory)
         {
@@ -67,7 +68,7 @@ public partial class ExcursionsView : UserControl
         if (sender is Button button && button.Tag is Excursion excursion)
         {
             var mainWindow = this.VisualRoot as MainWindow;
-            mainWindow?.ShowReviews(excursion.Reviews.ToList());
+            mainWindow?.ShowReviews(excursion.ExcursionId);
         }
     }
 }

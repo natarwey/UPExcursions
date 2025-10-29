@@ -18,9 +18,14 @@ namespace UPExcursions.Views
             MainContent.Content = new ExcursionsView();
         }
 
-        public void ShowReviews(List<Review> reviews)
+        public void ShowReviews(int excursionId)
         {
-            MainContent.Content = new ReviewsView(reviews);
+            MainContent.Content = new ReviewsView(excursionId);
+        }
+
+        public void GoBack()
+        {
+            MainContent.Content = new ExcursionsView();
         }
     }
 }
