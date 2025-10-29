@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UPExcursions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3332cd2d13d502d41241e451542f79b1e27cfe2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a52c8c124623119d1e21ca45a1b7c4d81d61a41c")]
 [assembly: System.Reflection.AssemblyProductAttribute("UPExcursions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UPExcursions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

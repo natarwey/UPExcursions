@@ -3,6 +3,7 @@ using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -14,6 +15,7 @@ public partial class ExcursionsView : UserControl
 {
     private List<Excursion> _allExcursions = new();
     private List<Category> _categories = new();
+    private Excursion? _selectedExcursion;
 
     public ExcursionsView()
     {
@@ -24,6 +26,49 @@ public partial class ExcursionsView : UserControl
             await LoadReferenceDataAsync();
             await LoadExcursionsAsync();
         };
+    }
+
+    protected override void OnDataContextChanged(EventArgs e)
+    {
+        base.OnDataContextChanged(e);
+        ExcursionsListBox.DoubleTapped += ExcursionsListBox_DoubleTapped;
+    }
+
+    private async void ExcursionsListBox_DoubleTapped(object? sender, Avalonia.Input.TappedEventArgs e)
+    {
+        if (ExcursionsListBox.SelectedItem is Excursion excursion)
+        {
+            _selectedExcursion = excursion;
+            var win = new ExcursionEditWindow(excursion);
+            var owner = this.VisualRoot as Window;
+            var result = await win.ShowDialog<bool>(owner);
+            if (result == true)
+            {
+                await LoadExcursionsAsync();
+            }
+        }
+    }
+
+    private async void AddButton_Click(object? sender, RoutedEventArgs e)
+    {
+        var win = new ExcursionEditWindow();
+        var owner = this.VisualRoot as Window;
+        var result = await win.ShowDialog<bool>(owner);
+        if (result == true)
+        {
+            await LoadExcursionsAsync();
+        }
+    }
+
+    private void DeleteButton_Click(object? sender, RoutedEventArgs e)
+    {
+        if (ExcursionsListBox.SelectedItem is Excursion excursion)
+        {
+            var db = App.dbContext;
+            db.Excursions.Remove(excursion);
+            db.SaveChanges();
+            _ = LoadExcursionsAsync();
+        }
     }
 
     private async Task LoadReferenceDataAsync()

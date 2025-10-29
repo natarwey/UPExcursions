@@ -50,3 +50,6 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/admin/Desktop/Башарова Рената/UPExcursions/UPExcursions/Windows/ConfirmationWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/admin/Desktop/Башарова Рената/UPExcursions/UPExcursions/Windows/ExcursionEditWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

@@ -10,6 +10,10 @@
 		</Grid.RowDefinitions>
 
 		<StackPanel Grid.Row="0" Orientation="Horizontal" Spacing="10" Margin="10">
+			<Button x:Name="AddButton" Content="+" Click="AddButton_Click" Width="40" Height="30" Background="white" BorderBrush="#4B0082"/>
+			<Button x:Name="DeleteButton" Content="×" Click="DeleteButton_Click" Width="40" Height="30" Foreground="Red" Background="white" BorderBrush="#4B0082"/>
+
+
 			<TextBlock Text="Category:" VerticalAlignment="Center" />
 			<ComboBox x:Name="CategoryFilter" Width="200" BorderBrush="#4B0082" />
 
@@ -24,7 +28,8 @@
 						<Border Width="900" Height="200"
 								Background="#E6E6FA"
 								Margin="0,8"
-								CornerRadius="8">
+								CornerRadius="8"
+								DoubleTapped="ExcursionsListBox_DoubleTapped">
 							<Grid>
 								<Grid.ColumnDefinitions>
 									<ColumnDefinition Width="*" />

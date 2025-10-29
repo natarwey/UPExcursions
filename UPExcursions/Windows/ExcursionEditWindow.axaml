@@ -1,0 +1,41 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="UPExcursions.Views.ExcursionEditWindow"
+        Title="ExcursionEditWindow"
+        Width="400"
+        Height="450"
+        WindowStartupLocation="CenterOwner"
+        CanResize="False">
+
+    <ScrollViewer>
+        <StackPanel Margin="15" Spacing="12">
+            <TextBox Watermark="Title"
+                     Text="{Binding Title, Mode=TwoWay}" />
+
+            <TextBox Watermark="Description"
+                     Text="{Binding Description, Mode=TwoWay}"
+                     AcceptsReturn="True"
+                     Height="60" />
+
+            <TextBox x:Name="DurationBox" Watermark="Duration (hours)" />
+
+            <TextBox x:Name="PriceBox" Watermark="Base Price" />
+
+            <TextBlock Text="Category:" />
+            <ComboBox x:Name="CategoryComboBox"
+                      SelectedItem="{Binding Category, Mode=TwoWay}"
+                      DisplayMemberBinding="{Binding CategoryName}" />
+
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Right"
+                        Spacing="10">
+                <Button Content="Save"
+                        Click="SaveButton_Click"
+                        Width="80" Background="#4B0082" Foreground="White" />
+                <Button Content="Cancel"
+                        Click="CancelButton_Click"
+                        Width="80" Background="white" BorderBrush="#4B0082" />
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</Window>
