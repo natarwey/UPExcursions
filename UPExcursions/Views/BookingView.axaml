@@ -1,0 +1,38 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="UPExcursions.Views.BookingView">
+
+    <ScrollViewer>
+        <StackPanel Margin="20" Spacing="15">
+            <TextBlock Text="Book Excursion" FontSize="24" FontWeight="Bold"/>
+
+            <TextBlock x:Name="TitleText" FontSize="18" />
+
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <TextBlock Text="Session:" Width="100" VerticalAlignment="Center"/>
+                <ComboBox x:Name="SessionComboBox" Width="300" DisplayMemberBinding="{Binding SessionDisplay}" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <TextBlock Text="Participants:" Width="100" VerticalAlignment="Center"/>
+                <TextBox x:Name="ParticipantsBox" Text="1" Width="100" TextChanged="ParticipantsBox_TextChanged"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <TextBlock Text="Payment:" Width="100" VerticalAlignment="Center"/>
+                <ComboBox x:Name="PaymentMethodBox" Width="200">
+                    <ComboBoxItem>cash</ComboBoxItem>
+                    <ComboBoxItem>card</ComboBoxItem>
+                    <ComboBoxItem>electronic_wallet</ComboBoxItem>
+                </ComboBox>
+            </StackPanel>
+
+            <TextBlock x:Name="TotalPriceText" FontSize="16" FontWeight="Bold"/>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="10">
+                <Button Content="Back" Click="BackButton_Click" Width="80"/>
+                <Button Content="Confirm" Click="ConfirmButton_Click" Width="100" Background="#4B0082" Foreground="White"/>
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

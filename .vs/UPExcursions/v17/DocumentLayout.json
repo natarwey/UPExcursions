@@ -3,16 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\views\\ordershistoryview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\views\\ordershistoryview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\views\\excursionsview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\views\\excursionsview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\views\\favoritesview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\views\\favoritesview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\views\\ordershistoryview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\views\\ordershistoryview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\views\\bookingview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\views\\bookingview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\views\\bookingview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\views\\bookingview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\views\\excursionsview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\views\\excursionsview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\windows\\confirmationwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\windows\\confirmationwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\windows\\confirmationwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\windows\\confirmationwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\data\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\data\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\data\\excursionsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\data\\excursionsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\data\\excursion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\data\\excursion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\views\\favoritesview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,14 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\windows\\addreviewwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\windows\\addreviewwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\views\\excursionsview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\views\\excursionsview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\views\\excursionsview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\views\\excursionsview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\views\\reviewsview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
@@ -75,16 +115,8 @@
       "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\windows\\authwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\data\\excursion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\data\\excursion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
@@ -101,10 +133,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\data\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\data\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0440\u0435\u043D\u0430\u0442\u0430\\upexcursions\\upexcursions\\data\\excursionsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E010957-7E96-4E9B-BD44-7F74F8A1A7A8}|UPExcursions\\UPExcursions.csproj|solutionrelative:upexcursions\\data\\excursionsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -114,19 +142,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 272,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\MainWindow.axaml.cs",
-              "RelativeDocumentMoniker": "UPExcursions\\Views\\MainWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\MainWindow.axaml.cs",
-              "RelativeToolTip": "UPExcursions\\Views\\MainWindow.axaml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T14:19:13.845Z",
+              "DocumentIndex": 0,
+              "Title": "OrdersHistoryView.axaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\OrdersHistoryView.axaml",
+              "RelativeDocumentMoniker": "UPExcursions\\Views\\OrdersHistoryView.axaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\OrdersHistoryView.axaml",
+              "RelativeToolTip": "UPExcursions\\Views\\OrdersHistoryView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-29T15:58:07.821Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExcursionsView.axaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\ExcursionsView.axaml",
+              "RelativeDocumentMoniker": "UPExcursions\\Views\\ExcursionsView.axaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\ExcursionsView.axaml",
+              "RelativeToolTip": "UPExcursions\\Views\\ExcursionsView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-28T16:02:54.44Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -140,32 +180,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FavoritesView.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\FavoritesView.axaml.cs",
-              "RelativeDocumentMoniker": "UPExcursions\\Views\\FavoritesView.axaml.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\FavoritesView.axaml.cs",
-              "RelativeToolTip": "UPExcursions\\Views\\FavoritesView.axaml.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAUwFsAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "BookingView.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\BookingView.axaml.cs",
+              "RelativeDocumentMoniker": "UPExcursions\\Views\\BookingView.axaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\BookingView.axaml.cs",
+              "RelativeToolTip": "UPExcursions\\Views\\BookingView.axaml.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAIwFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T14:49:49.867Z",
+              "WhenOpened": "2025-10-29T15:54:00.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\MainWindow.axaml",
-              "RelativeDocumentMoniker": "UPExcursions\\Views\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\MainWindow.axaml",
-              "RelativeToolTip": "UPExcursions\\Views\\MainWindow.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-28T14:19:14.552Z",
+              "DocumentIndex": 7,
+              "Title": "ExcursionsView.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\ExcursionsView.axaml.cs",
+              "RelativeDocumentMoniker": "UPExcursions\\Views\\ExcursionsView.axaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\ExcursionsView.axaml.cs",
+              "RelativeToolTip": "UPExcursions\\Views\\ExcursionsView.axaml.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAwwG4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T16:02:54.323Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "OrdersHistoryView.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\OrdersHistoryView.axaml.cs",
+              "RelativeDocumentMoniker": "UPExcursions\\Views\\OrdersHistoryView.axaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\OrdersHistoryView.axaml.cs",
+              "RelativeToolTip": "UPExcursions\\Views\\OrdersHistoryView.axaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T15:58:07.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FavoritesView.axaml",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\FavoritesView.axaml",
               "RelativeDocumentMoniker": "UPExcursions\\Views\\FavoritesView.axaml",
@@ -177,32 +231,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ReviewsView.axaml",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\ReviewsView.axaml",
-              "RelativeDocumentMoniker": "UPExcursions\\Views\\ReviewsView.axaml",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\ReviewsView.axaml",
-              "RelativeToolTip": "UPExcursions\\Views\\ReviewsView.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-28T20:09:09.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AddReviewWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Windows\\AddReviewWindow.axaml.cs",
-              "RelativeDocumentMoniker": "UPExcursions\\Windows\\AddReviewWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Windows\\AddReviewWindow.axaml.cs",
-              "RelativeToolTip": "UPExcursions\\Windows\\AddReviewWindow.axaml.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAYwD8AAAAIAAAAAAAAAA==",
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "UPExcursions\\Views\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\MainWindow.axaml.cs",
+              "RelativeToolTip": "UPExcursions\\Views\\MainWindow.axaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA2wCMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T14:20:52.173Z",
+              "WhenOpened": "2025-10-28T14:19:13.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "BookingView.axaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\BookingView.axaml",
+              "RelativeDocumentMoniker": "UPExcursions\\Views\\BookingView.axaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\BookingView.axaml",
+              "RelativeToolTip": "UPExcursions\\Views\\BookingView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-29T15:54:00.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "UPExcursions\\Views\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\MainWindow.axaml",
+              "RelativeToolTip": "UPExcursions\\Views\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-28T14:19:14.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConfirmationWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Windows\\ConfirmationWindow.axaml",
+              "RelativeDocumentMoniker": "UPExcursions\\Windows\\ConfirmationWindow.axaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Windows\\ConfirmationWindow.axaml",
+              "RelativeToolTip": "UPExcursions\\Windows\\ConfirmationWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-29T15:56:27.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConfirmationWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Windows\\ConfirmationWindow.axaml.cs",
+              "RelativeDocumentMoniker": "UPExcursions\\Windows\\ConfirmationWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Windows\\ConfirmationWindow.axaml.cs",
+              "RelativeToolTip": "UPExcursions\\Windows\\ConfirmationWindow.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T15:56:27.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\Payment.cs",
+              "RelativeDocumentMoniker": "UPExcursions\\Data\\Payment.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\Payment.cs",
+              "RelativeToolTip": "UPExcursions\\Data\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T15:50:56.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\User.cs",
               "RelativeDocumentMoniker": "UPExcursions\\Data\\User.cs",
@@ -210,37 +310,82 @@
               "RelativeToolTip": "UPExcursions\\Data\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T14:10:29.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T14:10:29.77Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ExcursionsView.axaml",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\ExcursionsView.axaml",
-              "RelativeDocumentMoniker": "UPExcursions\\Views\\ExcursionsView.axaml",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\ExcursionsView.axaml",
-              "RelativeToolTip": "UPExcursions\\Views\\ExcursionsView.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-28T16:02:54.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ExcursionsView.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\ExcursionsView.axaml.cs",
-              "RelativeDocumentMoniker": "UPExcursions\\Views\\ExcursionsView.axaml.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\ExcursionsView.axaml.cs",
-              "RelativeToolTip": "UPExcursions\\Views\\ExcursionsView.axaml.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAwwGQAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "Excursion.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\Excursion.cs",
+              "RelativeDocumentMoniker": "UPExcursions\\Data\\Excursion.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\Excursion.cs",
+              "RelativeToolTip": "UPExcursions\\Data\\Excursion.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA6wA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T16:02:54.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T15:59:23.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
+              "Title": "ExcursionSession.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\ExcursionSession.cs",
+              "RelativeDocumentMoniker": "UPExcursions\\Data\\ExcursionSession.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\ExcursionSession.cs",
+              "RelativeToolTip": "UPExcursions\\Data\\ExcursionSession.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA8wBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T15:59:27.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddReviewWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Windows\\AddReviewWindow.axaml.cs",
+              "RelativeDocumentMoniker": "UPExcursions\\Windows\\AddReviewWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Windows\\AddReviewWindow.axaml.cs",
+              "RelativeToolTip": "UPExcursions\\Windows\\AddReviewWindow.axaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwD8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T14:20:52.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ReviewsView.axaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\ReviewsView.axaml",
+              "RelativeDocumentMoniker": "UPExcursions\\Views\\ReviewsView.axaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\ReviewsView.axaml",
+              "RelativeToolTip": "UPExcursions\\Views\\ReviewsView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-28T20:09:09.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\Order.cs",
+              "RelativeDocumentMoniker": "UPExcursions\\Data\\Order.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\Order.cs",
+              "RelativeToolTip": "UPExcursions\\Data\\Order.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA8wBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T14:13:24.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FavoritesView.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\FavoritesView.axaml.cs",
+              "RelativeDocumentMoniker": "UPExcursions\\Views\\FavoritesView.axaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\FavoritesView.axaml.cs",
+              "RelativeToolTip": "UPExcursions\\Views\\FavoritesView.axaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwFsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T14:49:49.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Favorite.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\Favorite.cs",
               "RelativeDocumentMoniker": "UPExcursions\\Data\\Favorite.cs",
@@ -248,12 +393,11 @@
               "RelativeToolTip": "UPExcursions\\Data\\Favorite.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T14:42:41.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T14:42:41.463Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "AddReviewWindow.axaml",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Windows\\AddReviewWindow.axaml",
               "RelativeDocumentMoniker": "UPExcursions\\Windows\\AddReviewWindow.axaml",
@@ -264,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "CurrentUser.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\CurrentUser.cs",
               "RelativeDocumentMoniker": "UPExcursions\\Data\\CurrentUser.cs",
@@ -276,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "AuthWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Windows\\AuthWindow.axaml.cs",
               "RelativeDocumentMoniker": "UPExcursions\\Windows\\AuthWindow.axaml.cs",
@@ -288,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "ReviewsView.axaml.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Views\\ReviewsView.axaml.cs",
               "RelativeDocumentMoniker": "UPExcursions\\Views\\ReviewsView.axaml.cs",
@@ -300,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "Review.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\Review.cs",
               "RelativeDocumentMoniker": "UPExcursions\\Data\\Review.cs",
@@ -312,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 25,
               "Title": "Guide.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\Guide.cs",
               "RelativeDocumentMoniker": "UPExcursions\\Data\\Guide.cs",
@@ -324,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 26,
               "Title": "App.axaml.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\App.axaml.cs",
               "RelativeDocumentMoniker": "UPExcursions\\App.axaml.cs",
@@ -336,7 +480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\Role.cs",
               "RelativeDocumentMoniker": "UPExcursions\\Data\\Role.cs",
@@ -348,7 +492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 27,
               "Title": "AuthWindow.axaml",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Windows\\AuthWindow.axaml",
               "RelativeDocumentMoniker": "UPExcursions\\Windows\\AuthWindow.axaml",
@@ -359,19 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\Order.cs",
-              "RelativeDocumentMoniker": "UPExcursions\\Data\\Order.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\Order.cs",
-              "RelativeToolTip": "UPExcursions\\Data\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T14:13:24.826Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "App.axaml",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\App.axaml",
               "RelativeDocumentMoniker": "UPExcursions\\App.axaml",
@@ -382,19 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Excursion.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\Excursion.cs",
-              "RelativeDocumentMoniker": "UPExcursions\\Data\\Excursion.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\Excursion.cs",
-              "RelativeToolTip": "UPExcursions\\Data\\Excursion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T15:59:23.315Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "UPExcursions\\Data\\AppDbContext.cs",
@@ -406,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\Category.cs",
               "RelativeDocumentMoniker": "UPExcursions\\Data\\Category.cs",
@@ -418,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "UPExcursions.csproj",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\UPExcursions.csproj",
               "RelativeDocumentMoniker": "UPExcursions\\UPExcursions.csproj",
@@ -427,18 +547,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-10-28T15:42:42.718Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ExcursionSession.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\ExcursionSession.cs",
-              "RelativeDocumentMoniker": "UPExcursions\\Data\\ExcursionSession.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0448\u0430\u0440\u043E\u0432\u0430 \u0420\u0435\u043D\u0430\u0442\u0430\\UPExcursions\\UPExcursions\\Data\\ExcursionSession.cs",
-              "RelativeToolTip": "UPExcursions\\Data\\ExcursionSession.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T15:59:27.289Z"
             }
           ]
         }

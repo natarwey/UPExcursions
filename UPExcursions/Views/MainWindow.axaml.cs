@@ -34,5 +34,16 @@ namespace UPExcursions.Views
 
             MainContent.Content = new FavoritesView();
         }
+
+        private void OrdersButton_Click(object? sender, RoutedEventArgs e)
+        {
+
+            MainContent.Content = new OrdersHistoryView();
+        }
+
+        public void ShowBookingView(Excursion excursion)
+        {
+            MainContent.Content = new BookingView(excursion);
+        }
     }
 }

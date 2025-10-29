@@ -1,0 +1,27 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="UPExcursions.Views.OrdersHistoryView">
+
+    <ScrollViewer>
+        <StackPanel Margin="10">
+            <TextBlock Text="My Orders" FontSize="20" Margin="0,0,0,15" FontWeight="Bold"/>
+
+            <ListBox x:Name="OrdersList">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Border Background="#E6E6FA" Padding="10" Margin="0,5" CornerRadius="4">
+                            <StackPanel Spacing="4">
+                                <TextBlock FontWeight="Bold" Text="{Binding Session.Excursion.Title}" />
+                                <TextBlock Text="{Binding Session.SessionDate, StringFormat='Date: {0:dd.MM.yyyy}'}" />
+                                <TextBlock Text="{Binding Session.StartTime, StringFormat='Time: {0:HH:mm}'}" />
+                                <TextBlock Text="{Binding ParticipantsCount, StringFormat='Participants: {0}'}" />
+                                <TextBlock Text="{Binding TotalPrice, StringFormat='Total: {0:F2} ₽'}" />
+                                <TextBlock Text="{Binding Status, StringFormat='Status: {0}'}" />
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

@@ -99,4 +99,16 @@ public partial class ExcursionsView : UserControl
             await db.SaveChangesAsync();
         }
     }
+
+    private void BookExcursionButton_Click(object? sender, RoutedEventArgs e)
+    {
+        if (CurrentUser.currentUser == null)
+            return;
+
+        if (sender is Button button && button.Tag is Excursion excursion)
+        {
+            var mainWindow = this.VisualRoot as MainWindow;
+            mainWindow?.ShowBookingView(excursion);
+        }
+    }
 }

@@ -16,7 +16,7 @@
 
 		<StackPanel Orientation="Horizontal" Spacing="15" VerticalAlignment="Center">
 			<Button Content="Excursions" Click="ExcursionsButton_Click" Width="100" Background="#9400D3" Foreground="White" />
-
+			<Button Content="Orders" Click="OrdersButton_Click" Width="100" Background="#9400D3" Foreground="White" />
 			<Button Content="Profile" Click="FavoritesButton_Click" Width="100" Background="#9400D3" Foreground="White" />
 		</StackPanel>
 
