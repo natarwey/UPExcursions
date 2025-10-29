@@ -10,57 +10,49 @@ using UPExcursions.Data;
 
 namespace UPExcursions.Views;
 
-public partial class ExcursionsView : UserControl
+public partial class FavoritesView : UserControl
 {
-    private List<Excursion> _allExcursions = new();
-    private List<Category> _categories = new();
-
-    public ExcursionsView()
+    public FavoritesView()
     {
         InitializeComponent();
-
         this.Loaded += async (_, _) =>
         {
-            await LoadReferenceDataAsync();
-            await LoadExcursionsAsync();
+            await LoadUserProfileAsync();
+            await LoadFavoritesAsync();
         };
     }
 
-    private async Task LoadReferenceDataAsync()
+    private async Task LoadUserProfileAsync()
     {
-        var db = App.dbContext;
-        _categories = await db.Categories.ToListAsync();
-        CategoryFilter.ItemsSource = _categories;
-        CategoryFilter.DisplayMemberBinding = new Avalonia.Data.Binding("CategoryName");
+        if (CurrentUser.currentUser == null)
+            return;
+
+        var user = CurrentUser.currentUser;
+
+        EmailBox.Text = user.Email;
+        FirstNameBox.Text = user.FirstName;
+        LastNameBox.Text = user.LastName;
+        PhoneBox.Text = user.Phone ?? "—";
     }
 
-    private async Task LoadExcursionsAsync()
+    private async Task LoadFavoritesAsync()
     {
-        var db = App.dbContext;
-        IQueryable<Excursion> query = db.Excursions
-            .Include(e => e.Category)
-            .Include(e => e.ExcursionSessions)
-            .Include(e => e.Reviews)
-            .ThenInclude(r => r.User);
-
-        if (CategoryFilter.SelectedItem is Category selectedCategory)
+        if (CurrentUser.currentUser == null)
         {
-            query = query.Where(e => e.CategoryId == selectedCategory.CategoryId);
+            FavoritesListBox.ItemsSource = new List<Excursion>();
+            return;
         }
 
-        _allExcursions = await query.ToListAsync();
-        ExcursionsListBox.ItemsSource = _allExcursions;
-    }
+        var userId = CurrentUser.currentUser.UserId;
+        var db = App.dbContext;
 
-    private void FilterButton_Click(object? sender, RoutedEventArgs e)
-    {
-        _ = LoadExcursionsAsync();
-    }
+        var favoriteExcursions = await db.Excursions
+            .Include(e => e.Category)
+            .Include(e => e.ExcursionSessions)
+            .Where(e => e.Favorites.Any(f => f.UserId == userId))
+            .ToListAsync();
 
-    private void ClearFiltersButton_Click(object? sender, RoutedEventArgs e)
-    {
-        CategoryFilter.SelectedIndex = -1;
-        _ = LoadExcursionsAsync();
+        FavoritesListBox.ItemsSource = favoriteExcursions;
     }
 
     private void ShowReviewsButton_Click(object? sender, RoutedEventArgs e)
@@ -97,6 +89,7 @@ public partial class ExcursionsView : UserControl
                 });
             }
             await db.SaveChangesAsync();
+            await LoadFavoritesAsync();
         }
     }
 }

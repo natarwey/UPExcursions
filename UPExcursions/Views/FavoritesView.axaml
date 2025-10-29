@@ -1,26 +1,39 @@
 ﻿<UserControl xmlns="https://github.com/avaloniaui"
 			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 			 xmlns:data="using:UPExcursions.Data"
-			 x:Class="UPExcursions.Views.ExcursionsView">
+			 x:Class="UPExcursions.Views.FavoritesView">
 
-	<Grid>
-		<Grid.RowDefinitions>
-			<RowDefinition Height="1*"></RowDefinition>
-			<RowDefinition Height="10*"></RowDefinition>
-		</Grid.RowDefinitions>
+	<ScrollViewer>
+		<StackPanel>
+			<StackPanel Margin="20" Spacing="12">
+				<TextBlock Text="My Profile" FontSize="20" FontWeight="Bold" />
 
-		<StackPanel Grid.Row="0" Orientation="Horizontal" Spacing="10" Margin="10">
-			<TextBlock Text="Category:" VerticalAlignment="Center" />
-			<ComboBox x:Name="CategoryFilter" Width="200" BorderBrush="#4B0082" />
+				<StackPanel Orientation="Horizontal" Spacing="10">
+					<TextBlock Text="Email:" VerticalAlignment="Center" Width="100" />
+					<TextBox x:Name="EmailBox" IsReadOnly="True" Width="250" />
+				</StackPanel>
 
-			<Button Content="Filter" Click="FilterButton_Click" Width="70" Background="#4B0082" Foreground="White"/>
-			<Button Content="Clear" Click="ClearFiltersButton_Click" Width="70" Background="white" BorderBrush="#4B0082"/>
-		</StackPanel>
+				<StackPanel Orientation="Horizontal" Spacing="10">
+					<TextBlock Text="First Name:" VerticalAlignment="Center" Width="100" />
+					<TextBox x:Name="FirstNameBox" IsReadOnly="True" Width="250" />
+				</StackPanel>
 
-		<ScrollViewer Grid.Row="1">
-			<ListBox x:Name="ExcursionsListBox">
+				<StackPanel Orientation="Horizontal" Spacing="10">
+					<TextBlock Text="Last Name:" VerticalAlignment="Center" Width="100" />
+					<TextBox x:Name="LastNameBox" IsReadOnly="True" Width="250" />
+				</StackPanel>
+
+				<StackPanel Orientation="Horizontal" Spacing="10">
+					<TextBlock Text="Phone:" VerticalAlignment="Center" Width="100" />
+					<TextBox x:Name="PhoneBox" IsReadOnly="True" Width="250" />
+				</StackPanel>
+			</StackPanel>
+
+			<TextBlock Text="Favorites" FontSize="20" Margin="10" FontWeight="Bold"/>
+
+			<ListBox x:Name="FavoritesListBox">
 				<ListBox.ItemTemplate>
-					<DataTemplate>
+					<DataTemplate DataType="data:Excursion">
 						<Border Width="900" Height="200"
 								Background="#E6E6FA"
 								Margin="0,8"
@@ -93,6 +106,6 @@
 					</DataTemplate>
 				</ListBox.ItemTemplate>
 			</ListBox>
-		</ScrollViewer>
-	</Grid>
+		</StackPanel>
+	</ScrollViewer>
 </UserControl>

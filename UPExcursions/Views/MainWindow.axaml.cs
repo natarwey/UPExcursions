@@ -1,4 +1,5 @@
 using Avalonia.Controls;
+using Avalonia.Interactivity;
 using System;
 using System.Collections.Generic;
 using UPExcursions.Data;
@@ -26,6 +27,12 @@ namespace UPExcursions.Views
         public void GoBack()
         {
             MainContent.Content = new ExcursionsView();
+        }
+
+        private void FavoritesButton_Click(object? sender, RoutedEventArgs e)
+        {
+
+            MainContent.Content = new FavoritesView();
         }
     }
 }
