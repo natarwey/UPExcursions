@@ -45,5 +45,10 @@ namespace UPExcursions.Views
         {
             MainContent.Content = new BookingView(excursion);
         }
+
+        public void OrderReportButton_Click(object? sender, RoutedEventArgs e)
+        {
+            MainContent.Content = new OrderReportView();
+        }
     }
 }

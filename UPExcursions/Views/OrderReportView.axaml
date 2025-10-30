@@ -1,0 +1,38 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="UPExcursions.Views.OrderReportView">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10" Spacing="10">
+            <TextBlock Text="Status:" VerticalAlignment="Center"/>
+            <ComboBox x:Name="StatusFilter" Width="150">
+                <ComboBoxItem>pending</ComboBoxItem>
+                <ComboBoxItem>confirmed</ComboBoxItem>
+            </ComboBox>
+
+            <Button Content="Filter" Click="FilterButton_Click" Width="70" Background="#4B0082" Foreground="White"/>
+            <Button Content="Clear" Click="ClearFilterButton_Click" Width="70" Background="white" BorderBrush="#4B0082"/>
+        </StackPanel>
+
+        <DataGrid Grid.Row="1"
+                  x:Name="OrdersDataGrid"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  GridLinesVisibility="All"
+                  SelectionMode="Single">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Order ID" Binding="{Binding OrderId}" Width="80"/>
+                <DataGridTextColumn Header="Created At" Binding="{Binding CreatedAt, StringFormat='{}{0:dd.MM.yyyy HH:mm}'}" Width="200"/>
+                <DataGridTextColumn Header="Payment Method" Binding="{Binding Payment.PaymentMethod}" Width="150"/>
+                <DataGridTextColumn Header="Total Price" Binding="{Binding TotalPrice, StringFormat='{}{0:F2} ₽'}" Width="150"/>
+                <DataGridTextColumn Header="Paid At" Binding="{Binding Payment.PaidAt, StringFormat='{}{0:dd.MM.yyyy HH:mm}'}" Width="200"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>
