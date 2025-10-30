@@ -50,5 +50,10 @@ namespace UPExcursions.Views
         {
             MainContent.Content = new OrderReportView();
         }
+
+        public void ExcursionReportButton_Click(object? sender, RoutedEventArgs e)
+        {
+            MainContent.Content = new ExcursionReportView();
+        }
     }
 }

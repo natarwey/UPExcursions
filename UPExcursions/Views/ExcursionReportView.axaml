@@ -1,0 +1,26 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="UPExcursions.Views.ExcursionReportView">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Excursion Popularity Report" FontSize="20" Margin="10" FontWeight="Bold"/>
+
+        <DataGrid Grid.Row="1"
+                  x:Name="PopularityDataGrid"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  GridLinesVisibility="All"
+                  SelectionMode="Single">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Category" Binding="{Binding CategoryName}" Width="180"/>
+                <DataGridTextColumn Header="Excursion Title" Binding="{Binding Title}" Width="350"/>
+                <DataGridTextColumn Header="Total Participants" Binding="{Binding TotalParticipants}" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

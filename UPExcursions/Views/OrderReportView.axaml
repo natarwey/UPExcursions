@@ -5,10 +5,13 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10" Spacing="10">
+        <TextBlock Grid.Row="0" Text="Excursion Popularity Report" FontSize="20" Margin="10" FontWeight="Bold"/>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10" Spacing="10">
             <TextBlock Text="Status:" VerticalAlignment="Center"/>
             <ComboBox x:Name="StatusFilter" Width="150">
                 <ComboBoxItem>pending</ComboBoxItem>
@@ -19,7 +22,7 @@
             <Button Content="Clear" Click="ClearFilterButton_Click" Width="70" Background="white" BorderBrush="#4B0082"/>
         </StackPanel>
 
-        <DataGrid Grid.Row="1"
+        <DataGrid Grid.Row="2"
                   x:Name="OrdersDataGrid"
                   AutoGenerateColumns="False"
                   IsReadOnly="True"
