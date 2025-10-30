@@ -12,6 +12,19 @@ namespace UPExcursions.Views
         public MainWindow()
         {
             InitializeComponent();
+
+            this.Loaded += (_, _) => UpdateNavigationButtons();
+        }
+
+        private void UpdateNavigationButtons()
+        {
+            ExcursionsButton.IsVisible = CurrentUser.CanViewExcursions;
+
+            FavoritesButton.IsVisible = CurrentUser.CanManageFavorites;
+            MyOrdersButton.IsVisible = CurrentUser.CanViewOwnBookings;
+
+            OrderReportButton.IsVisible = CurrentUser.CanViewOrderReport;
+            PopularityReportButton.IsVisible = CurrentUser.CanViewPopularityReport;
         }
 
         private async void ExcursionsButton_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
@@ -54,6 +67,16 @@ namespace UPExcursions.Views
         public void ExcursionReportButton_Click(object? sender, RoutedEventArgs e)
         {
             MainContent.Content = new ExcursionReportView();
+        }
+
+        private void LogoutButton_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+        {
+            CurrentUser.currentUser = null;
+
+            var authWindow = new AuthWindow();
+            authWindow.Show();
+
+            this.Close();
         }
     }
 }

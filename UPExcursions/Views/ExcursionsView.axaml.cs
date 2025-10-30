@@ -3,11 +3,11 @@ using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using UPExcursions.Data;
+using UPExcursions.Views;
 
 namespace UPExcursions.Views;
 
@@ -26,12 +26,6 @@ public partial class ExcursionsView : UserControl
             await LoadReferenceDataAsync();
             await LoadExcursionsAsync();
         };
-    }
-
-    protected override void OnDataContextChanged(EventArgs e)
-    {
-        base.OnDataContextChanged(e);
-        ExcursionsListBox.DoubleTapped += ExcursionsListBox_DoubleTapped;
     }
 
     private async void ExcursionsListBox_DoubleTapped(object? sender, Avalonia.Input.TappedEventArgs e)
@@ -95,6 +89,15 @@ public partial class ExcursionsView : UserControl
 
         _allExcursions = await query.ToListAsync();
         ExcursionsListBox.ItemsSource = _allExcursions;
+
+        if (CurrentUser.IsAdmin)
+        {
+            ExcursionsListBox.DoubleTapped += ExcursionsListBox_DoubleTapped;
+        }
+        else
+        {
+            ExcursionsListBox.DoubleTapped -= ExcursionsListBox_DoubleTapped;
+        }
     }
 
     private void FilterButton_Click(object? sender, RoutedEventArgs e)

@@ -20,6 +20,12 @@ public partial class ReviewsView : UserControl
         _excursionId = excursionId;
 
         this.Loaded += async (_, _) => await LoadReviewsAsync();
+        this.Loaded += (_, _) => UpdateNavigationButtons();
+    }
+
+    private void UpdateNavigationButtons()
+    {
+        AddReviewButton.IsVisible = CurrentUser.CanViewAndWriteReviews;
     }
 
     private async Task LoadReviewsAsync()

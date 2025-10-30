@@ -1,3 +1,5 @@
+C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\obj\Debug\net8.0\UPExcursions.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\obj\Debug\net8.0\Avalonia\Resources.Inputs.cache
 C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\bin\Debug\net8.0\UPExcursions.exe
 C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\bin\Debug\net8.0\UPExcursions.deps.json
 C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\bin\Debug\net8.0\UPExcursions.runtimeconfig.json
@@ -134,17 +136,15 @@ C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\b
 C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\bin\Debug\net8.0\runtimes\win-arm64\native\libSkiaSharp.dll
 C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\bin\Debug\net8.0\runtimes\win-x64\native\libSkiaSharp.dll
 C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\bin\Debug\net8.0\runtimes\win-x86\native\libSkiaSharp.dll
-C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\obj\Debug\net8.0\UPExcursions.csproj.AssemblyReference.cache
-C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\obj\Debug\net8.0\Avalonia\Resources.Inputs.cache
 C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\obj\Debug\net8.0\Avalonia\resources
 C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\obj\Debug\net8.0\UPExcursions.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\obj\Debug\net8.0\UPExcursions.AssemblyInfoInputs.cache
 C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\obj\Debug\net8.0\UPExcursions.AssemblyInfo.cs
 C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\obj\Debug\net8.0\UPExcursions.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\obj\Debug\net8.0\UPExcursions.sourcelink.json
 C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\obj\Debug\net8.0\UPExcurs.53055B8F.Up2Date
 C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\obj\Debug\net8.0\UPExcursions.dll
 C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\obj\Debug\net8.0\refint\UPExcursions.dll
 C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\obj\Debug\net8.0\UPExcursions.pdb
 C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\obj\Debug\net8.0\UPExcursions.genruntimeconfig.cache
 C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\obj\Debug\net8.0\ref\UPExcursions.dll
-C:\Users\admin\Desktop\Башарова Рената\UPExcursions\UPExcursions\obj\Debug\net8.0\UPExcursions.sourcelink.json

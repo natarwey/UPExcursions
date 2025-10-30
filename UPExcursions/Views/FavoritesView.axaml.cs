@@ -33,10 +33,17 @@ public partial class FavoritesView : UserControl
         FirstNameBox.Text = user.FirstName;
         LastNameBox.Text = user.LastName;
         PhoneBox.Text = user.Phone ?? "—";
+        RoleBox.Text = user.Role?.RoleName ?? "—";
     }
 
     private async Task LoadFavoritesAsync()
     {
+        if (CurrentUser.IsAdmin)
+        {
+            FavoritesListBox.ItemsSource = new List<Excursion>();
+            return;
+        }
+
         if (CurrentUser.currentUser == null)
         {
             FavoritesListBox.ItemsSource = new List<Excursion>();

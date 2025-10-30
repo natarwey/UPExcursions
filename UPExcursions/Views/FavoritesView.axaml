@@ -27,9 +27,12 @@
 					<TextBlock Text="Phone:" VerticalAlignment="Center" Width="100" />
 					<TextBox x:Name="PhoneBox" IsReadOnly="True" Width="250" />
 				</StackPanel>
-			</StackPanel>
 
-			<TextBlock Text="Favorites" FontSize="20" Margin="10" FontWeight="Bold"/>
+				<StackPanel Orientation="Horizontal" Spacing="10">
+					<TextBlock Text="Role:" VerticalAlignment="Center" Width="100" />
+					<TextBox x:Name="RoleBox" IsReadOnly="True" Width="250" />
+				</StackPanel>
+			</StackPanel>
 
 			<ListBox x:Name="FavoritesListBox">
 				<ListBox.ItemTemplate>

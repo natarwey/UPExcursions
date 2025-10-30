@@ -11,7 +11,7 @@
 
         <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10">
             <Button Content="Back" Click="BackButton_Click" Width="80" Height="30" BorderBrush="#546F94" Background="white"/>
-            <Button Content="Add Review" Click="AddReviewButton_Click" Width="100" Height="30" Margin="10,0,0,0" Background="#4B0082" Foreground="White"/>
+            <Button x:Name="AddReviewButton" Content="Add Review" Click="AddReviewButton_Click" Width="100" Height="30" Margin="10,0,0,0" Background="#4B0082" Foreground="White"/>
         </StackPanel>
 
         <ScrollViewer Grid.Row="1">

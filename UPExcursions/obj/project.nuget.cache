@@ -74,5 +74,15 @@
     "C:\\Users\\admin\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\tmds.dbus.protocol\\0.21.2\\tmds.dbus.protocol.0.21.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Произошла ошибка при получении данных уязвимости пакета: Не удалось загрузить индекс службы для источника https://api.nuget.org/v3/index.json.",
+      "projectPath": "C:\\Users\\admin\\Desktop\\Башарова Рената\\UPExcursions\\UPExcursions\\UPExcursions.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\admin\\Desktop\\Башарова Рената\\UPExcursions\\UPExcursions\\UPExcursions.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

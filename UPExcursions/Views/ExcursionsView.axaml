@@ -1,17 +1,18 @@
 ﻿<UserControl xmlns="https://github.com/avaloniaui"
-			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-			 xmlns:data="using:UPExcursions.Data"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:data="using:UPExcursions.Data"
+			 xmlns:local="using:UPExcursions"
 			 x:Class="UPExcursions.Views.ExcursionsView">
 
-	<Grid>
+    <Grid>
 		<Grid.RowDefinitions>
 			<RowDefinition Height="1*"></RowDefinition>
 			<RowDefinition Height="10*"></RowDefinition>
 		</Grid.RowDefinitions>
 
 		<StackPanel Grid.Row="0" Orientation="Horizontal" Spacing="10" Margin="10">
-			<Button x:Name="AddButton" Content="+" Click="AddButton_Click" Width="40" Height="30" Background="white" BorderBrush="#4B0082"/>
-			<Button x:Name="DeleteButton" Content="×" Click="DeleteButton_Click" Width="40" Height="30" Foreground="Red" Background="white" BorderBrush="#4B0082"/>
+			<Button x:Name="AddButton" Content="+" Click="AddButton_Click" Width="40" Height="30" Background="white" BorderBrush="#4B0082" IsVisible="{x:Static local:CurrentUser.IsAdmin}"/>
+			<Button x:Name="DeleteButton" Content="×" Click="DeleteButton_Click" Width="40" Height="30" Foreground="Red" Background="white" BorderBrush="#4B0082" IsVisible="{x:Static local:CurrentUser.IsAdmin}"/>
 
 
 			<TextBlock Text="Category:" VerticalAlignment="Center" />
@@ -28,8 +29,7 @@
 						<Border Width="900" Height="200"
 								Background="#E6E6FA"
 								Margin="0,8"
-								CornerRadius="8"
-								DoubleTapped="ExcursionsListBox_DoubleTapped">
+								CornerRadius="8">
 							<Grid>
 								<Grid.ColumnDefinitions>
 									<ColumnDefinition Width="*" />
@@ -83,22 +83,21 @@
 											Click="ShowReviewsButton_Click"
 											Width="90"
 											Height="32"
-											Background="#9400D3"
-											Foreground="White" />
+											Background="#9400D3" Foreground="White" />
 									<Button Content="       ♥"
 											Tag="{Binding}"
 											Click="AddToFavoritesButton_Click"
 											Width="90"
 											Height="32"
-											Background="white"
-											Foreground="#9400D3"/>
+											Background="white" Foreground="#9400D3"
+											IsVisible="{x:Static local:CurrentUser.IsClient}"/>
 									<Button Content="Book"
 											Tag="{Binding}"
 											Click="BookExcursionButton_Click"
 											Width="90"
 											Height="32"
-											Background="#9400D3"
-											Foreground="White"/>
+											Background="#9400D3" Foreground="White"
+											IsVisible="{x:Static local:CurrentUser.IsClient}"/>
 								</StackPanel>
 							</Grid>
 						</Border>

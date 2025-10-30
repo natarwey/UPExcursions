@@ -8,6 +8,7 @@
         Icon="/Assets/logoE.png">
 
     <Grid Margin="10">
+		<Button Content="Logout" Click="LogoutButton_Click" HorizontalAlignment="Right" VerticalAlignment="Top" Width="80" Height="30" FontSize="14" Background="white" BorderBrush="#9400D3" Foreground="#9400D3" />
 
 		<Grid.RowDefinitions>
 			<RowDefinition Height="Auto"></RowDefinition>
@@ -15,11 +16,11 @@
 		</Grid.RowDefinitions>
 
 		<StackPanel Orientation="Horizontal" Spacing="15" VerticalAlignment="Center">
-			<Button Content="Excursions" Click="ExcursionsButton_Click" Width="100" Background="#9400D3" Foreground="White" />
-			<Button Content="Orders" Click="OrdersButton_Click" Width="100" Background="#9400D3" Foreground="White" />
-			<Button Content="Profile" Click="FavoritesButton_Click" Width="100" Background="#9400D3" Foreground="White" />
-			<Button Content="Order Report" Click="OrderReportButton_Click" Width="130" Background="white" BorderBrush="#9400D3" Foreground="#9400D3" />
-			<Button Content="Excursion Report" Click="ExcursionReportButton_Click" Width="130" Background="white" BorderBrush="#9400D3" Foreground="#9400D3" />
+			<Button x:Name="ExcursionsButton" Content="Excursions" Click="ExcursionsButton_Click" Width="100" Background="#9400D3" Foreground="White" />
+			<Button x:Name="MyOrdersButton" Content="Orders" Click="OrdersButton_Click" Width="100" Background="#9400D3" Foreground="White" />
+			<Button x:Name="FavoritesButton" Content="Profile" Click="FavoritesButton_Click" Width="100" Background="#9400D3" Foreground="White" />
+			<Button x:Name="OrderReportButton" Content="Order Report" Click="OrderReportButton_Click" Width="130" Background="white" BorderBrush="#9400D3" Foreground="#9400D3" />
+			<Button x:Name="PopularityReportButton" Content="Excursion Report" Click="ExcursionReportButton_Click" Width="130" Background="white" BorderBrush="#9400D3" Foreground="#9400D3" />
 		</StackPanel>
 
 		<Border Grid.Row="1" Margin="0,20,0,0" BorderBrush="Gray" BorderThickness="1">
