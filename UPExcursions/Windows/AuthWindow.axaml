@@ -13,8 +13,10 @@
         <TextBox Name="PasswordBox" Watermark="Password" PasswordChar="●"/>
 
         <StackPanel Orientation="Horizontal" Spacing="10" HorizontalAlignment="Center">
-            <Button Content="Войти" Click="LoginButton_Click" Width="80" Height="30" Background="#9400D3" Foreground="White" />
-            <Button Content="Зарегистрироваться" Click="RegisterButton_Click" Width="165" Height="30" Background="white" BorderBrush="#9400D3"/>
+            <Button Content="Войти" Click="LoginButton_Click" Width="80" Height="30" 
+                    Background="#9400D3" Foreground="White" />
+            <Button Content="Зарегистрироваться" Click="RegisterButton_Click" Width="165" Height="30" 
+                    Background="white" BorderBrush="#9400D3"/>
         </StackPanel>
     </StackPanel>
 </Window>

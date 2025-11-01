@@ -40,7 +40,7 @@ public partial class AuthWindow : Window
         }
         else
         {
-            // Можно показать "Неверный логин или пароль"
+
         }
     }
 

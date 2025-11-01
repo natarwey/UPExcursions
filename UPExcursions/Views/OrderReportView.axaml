@@ -9,7 +9,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Row="0" Text="Excursion Popularity Report" FontSize="20" Margin="10" FontWeight="Bold"/>
+        <TextBlock Grid.Row="0" Text="Orders Report" FontSize="20" Margin="10" FontWeight="Bold"/>
 
         <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10" Spacing="10">
             <TextBlock Text="Status:" VerticalAlignment="Center"/>
